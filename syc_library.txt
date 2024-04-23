@@ -1,0 +1,52 @@
+1987 Survey of Youth in Custody
+Lohr (1999) - Appendix C - file syc.dat
+
+
+Variable   Description
+----------------------------------------------------------
+stratum    stratum number
+psu        psu number
+psusize    # of eligible residents in psu
+initwt     initial weight (unimportant)
+finalwt    final weight (sampling weight)
+randgrp    random group number
+age        age (99 = missing)
+race       race (1 = white, 2 = black, 3 = Asian/Pacific Islander, 
+                 4 = Native, 5 = other, 9 = missing)
+ethnicty   1 = Hispanic, 2 = not Hispanic, 9 = missing
+educ       highest grade attended before sent to correctional institution 
+                (99 = missing)    
+sex        gender (1 = male, 2 = female, 9 = missing)
+livewith   who did you live with most of the time when growing up?   
+famtime    any family member ever served time in prison?  
+                (1 = yes, 2 = no, 7 = don't know, 9 = missing)
+crimtype   most serious crime in current offence (see * below)
+everviol   ever put on probation or sent to correctional institution for 
+                violent offence? (1 = yes, 0 = no)
+numarr     # of times arrested (99 = missing)
+probtn     # of times on probation (99 = missing)
+corrinst   # of times previously committed to correctional institution (99 = missing) 
+evertime   ever serve time in correctional institution before current 
+                offence (1 = yes, 2 = no, 9 = missing)
+prviol     previously arrested for violent crime (1 = yes, 0 = no, 9 = missing)
+prprop     previously arrested for property offence (same as prviol)
+prdrug     previously arrested for drug offence (same as prviol)
+prpub      previously arrested for public-order offence (same as prviol)
+prjuv      previously arrested for juvenile-status offence (same as prviol)
+agefirst   age at first arrest (99 = missing)
+usewepn    did you use a weapon for this incident? (1 = yes, 2 = no, 9 = missing)
+alcuse     drank alcohol in the year prior to current offence 
+                (1 = yes, 2 = no but drinker, 3 = non drinker, 9 = missing)
+everdrug   ever used illegal drugs (1 = yes, 0 = no, 9 = missing)
+
+
+*  1 = violent (e.g., murder, rape, robbery, assault)				  
+   2 = property (e.g., burglary, larceny, arson, fraud, vehicle theft)		  
+   3 = drug (drug possession or trafficking)					  
+   4 = public order (e.g., weapons violation, perjury, failure to appear in court)	  
+   5 = juvenile-status offence (e.g., truancy, incorrigible behaviour)		  
+   9 = missing                                                                       
+
+
+
+=====================================================================================
